@@ -59,3 +59,33 @@ find out what is a leap year)"""
 #         print(f"{year} is not leap year")
 # year = int(input("enter year"))
 # leap_year(year)
+
+""""                            IF ELSE LADDER QUESTION                                      """
+
+"""You cna also create if elif ladder using multiple conditions of
+elif.j
+@ For understanding solve this questionj
+@ take the input of temperature in celsiusX
+@ Below 0°C → "Freezing Cold b
+@ 0°C to 10°C → "Very Cold b
+@ 10°C to 20°C → "Cold b
+@ 20°C to 30°C → "Pleasant b
+@ 30°C to 40°C → "Hot b
+@ Above 40°C → "Very Hot 
+
+"""
+def Weather(temp):
+    if temp <0:
+        print("Freezing Cold temprature")
+    elif temp >0 and temp <10 :
+        print("very Cold")
+    elif temp>10 and temp<20 :
+        print("Cold Weather")
+    elif temp>20 and temp<30 :
+        print("pleasent")
+    elif temp>30 and temp<40 :
+        print("Hot")
+    else :
+        print("Very HOT")
+temp = int(input("Enter the temprature in celsius"))
+Weather(temp)
