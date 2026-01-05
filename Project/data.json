@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Prashant Pal",
+        "age": 20,
+        "email": "prashant@gmail.com",
+        "pin": 1002,
+        "accounNo": "^8j1Y9Z",
+        "Balance": 0
+    },
+    {
+        "name": "Rishabh",
+        "age": 18,
+        "email": "rishabhmishra143a@gmail.com",
+        "pin": 1306,
+        "account_no": "hq7bEBy",
+        "balance": 0
+    },
+    {
+        "name": "Subham",
+        "age": 30,
+        "email": "rishabhmishra143a@gmail.com",
+        "pin": 1234,
+        "account_no": "kPS5nBQ",
+        "balance": 0
+    }
+]

@@ -1,0 +1,8 @@
+class Animal():
+    __name="Rishabh"
+    def show(self):
+        print(f"Hewy i am Animal here{Animal.__name}")
+        
+obj = Animal()
+
+obj.show()
